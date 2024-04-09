@@ -1,21 +1,21 @@
 package org.example.Selenium23032024;
 
+import org.testng.annotations.AfterTest;
 import io.qameta.allure.Description;
-import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-
-public class Selenium22 {
+public class Selenium23 {
     EdgeDriver driver;
     @BeforeTest
     public void openBrowser(){
@@ -40,11 +40,12 @@ public class Selenium22 {
         driver.findElement(By.id("login-password")).sendKeys("ATBx@1234");
         driver.findElement(By.id("js-login-btn")).click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
-        // wait.until(ExpectedConditions.visibilityOf(By.cssSelector("[data-qa='lufexuloga']")));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[data-qa='lufexuloga']")));
-        WebElement loggedin_username = driver.findElement(By.cssSelector("[data-qa='lufexuloga']"));
+        Wait<EdgeDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(10))
+                .pollingEvery(Duration.ofSeconds(2))
+                .ignoring(NoSuchElementException.class);
 
+        WebElement loggedin_username = wait.until(driver -> driver.findElement(By.cssSelector("[data-qa='lufexuloga']")));
 
 
         System.out.println("Logged in User details -> " + loggedin_username.getText());
@@ -80,5 +81,4 @@ public class Selenium22 {
     public void closeBrowser(){
         driver.quit();
     }
-
 }

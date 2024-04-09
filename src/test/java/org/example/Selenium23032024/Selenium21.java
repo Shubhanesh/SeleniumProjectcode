@@ -45,7 +45,7 @@ public class Selenium21 {
 
        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3000));
 
-       WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(30));
+       WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(3000));
 
 
         wait.until(ExpectedConditions.textToBePresentInElement(error_msg, "Your email, password, IP address or location did not match"));
