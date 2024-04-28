@@ -9,7 +9,7 @@ import java.io.File;
 
 public class Selenium04 {
     @Test
-    public void testMethod(){
+    public void testMethod() {
         // Extension to the Edge Browser
         // YouTube video -. Ad blocker Extension
         // Selenium ?
@@ -17,7 +17,7 @@ public class Selenium04 {
         EdgeOptions edgeOptions = new EdgeOptions();
 //        edgeOptions.addArguments("--headless");
         edgeOptions.addExtensions(new File("/Users/pramod/Downloads/AdBlock1.crx"));
-        WebDriver driver  = new EdgeDriver(edgeOptions);
+        WebDriver driver = new EdgeDriver(edgeOptions);
         driver.get("https://youtube.com");
         System.out.println(driver.getTitle());
         driver.quit();

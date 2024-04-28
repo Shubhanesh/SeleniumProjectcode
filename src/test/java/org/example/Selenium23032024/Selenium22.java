@@ -17,15 +17,13 @@ import java.time.Duration;
 
 public class Selenium22 {
     EdgeDriver driver;
+
     @BeforeTest
-    public void openBrowser(){
+    public void openBrowser() {
         EdgeOptions options = new EdgeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         driver = new EdgeDriver(options);
     }
-
-
-
 
 
     @Test(groups = "QA")
@@ -46,38 +44,14 @@ public class Selenium22 {
         WebElement loggedin_username = driver.findElement(By.cssSelector("[data-qa='lufexuloga']"));
 
 
-
         System.out.println("Logged in User details -> " + loggedin_username.getText());
-
-
 
 
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @AfterTest
-    public void closeBrowser(){
+    public void closeBrowser() {
         driver.quit();
     }
 

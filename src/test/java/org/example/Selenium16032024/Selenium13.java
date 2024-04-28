@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
+
 import java.util.List;
 
 public class Selenium13 {
@@ -21,7 +22,7 @@ public class Selenium13 {
         all_atags.get(0).click(); // start free trial
         all_atags.get(1).click(); // 2nd one - vwo insights
         all_atags.size(); // 2
-        for( WebElement element: all_atags){
+        for (WebElement element : all_atags) {
             System.out.println(element.getText());
         }
 

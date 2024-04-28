@@ -1,4 +1,5 @@
 package org.example.Selenium17032024;
+
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 
 public class Selenium15 {
@@ -36,7 +38,7 @@ public class Selenium15 {
         btnElement_ID.click();
         // Wait for 2 Seconds
         Thread.sleep(2000);
-        Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/profile.php#login");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://katalon-demo-cura.herokuapp.com/profile.php#login");
 
         //<input
 
@@ -60,9 +62,6 @@ public class Selenium15 {
 
 
         driver.quit();
-
-
-
 
 
     }

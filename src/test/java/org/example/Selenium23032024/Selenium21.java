@@ -19,17 +19,18 @@ import java.util.concurrent.TimeUnit;
 
 public class Selenium21 {
     EdgeDriver driver;
+
     @BeforeTest
 
-    public void openbrowser(){
-        EdgeOptions options=new EdgeOptions();
+    public void openbrowser() {
+        EdgeOptions options = new EdgeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-        driver=new EdgeDriver(options);
+        driver = new EdgeDriver(options);
     }
 
     @Test(groups = "QA")
     @Description("Test case discription")
-    public void testpositive()throws InterruptedException {
+    public void testpositive() throws InterruptedException {
         driver.get("https://app.vwo.com");
         driver.manage().window().maximize();
 
@@ -43,9 +44,9 @@ public class Selenium21 {
         WebElement error_msg = driver.findElement(By.id("js-notification-box-msg"));
 
 
-       //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3000));
+        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3000));
 
-       WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(3000));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3000));
 
 
         wait.until(ExpectedConditions.textToBePresentInElement(error_msg, "Your email, password, IP address or location did not match"));
@@ -55,10 +56,9 @@ public class Selenium21 {
     }
 
     @AfterTest
-    public void closeBrowser(){
+    public void closeBrowser() {
         driver.quit();
     }
-
 
 
 }

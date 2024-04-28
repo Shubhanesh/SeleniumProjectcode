@@ -8,16 +8,17 @@ import org.testng.annotations.Test;
 public class Selenium18 {
 
     EdgeDriver driver;
-@BeforeTest
-    public void openbrowser(){
-        driver=new EdgeDriver();
+
+    @BeforeTest
+    public void openbrowser() {
+        driver = new EdgeDriver();
     }
 
-    @Test(groups="QA")
+    @Test(groups = "QA")
     @Description("Test case discription")
-    public void VWoLogin_positive()throws InterruptedException{
-    driver.get("https://katalon-demo-cura.herokuapp.com/");
-    driver.manage().window().maximize();
+    public void VWoLogin_positive() throws InterruptedException {
+        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.manage().window().maximize();
     }
     // CSS Selectors - tagName id -> #, class -> . , custom [@attribute=value]
     // CSS selectors are used to select elements in an HTML or XML document. (tag based lang.)

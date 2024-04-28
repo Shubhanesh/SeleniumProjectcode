@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class Testcase02 {
     @Test
     @Description("Verify title of the TheTestingAcademy Website.")
-    public void vwoLogin(){
+    public void vwoLogin() {
 
         // Selenium - Arch
         // Write the code - Client - Java, Python, Ruby, Perl, Php

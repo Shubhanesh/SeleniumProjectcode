@@ -21,10 +21,5 @@ public class Selenium05 {
         // when needed when you start the Selenium server.
 
 
-
-
-
-
-
     }
 }

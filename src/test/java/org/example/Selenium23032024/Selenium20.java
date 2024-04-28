@@ -1,4 +1,5 @@
 package org.example.Selenium23032024;
+
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
@@ -13,15 +14,13 @@ import java.util.List;
 
 public class Selenium20 {
     EdgeDriver driver;
+
     @BeforeTest
-    public void openBrowser(){
+    public void openBrowser() {
         EdgeOptions options = new EdgeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         driver = new EdgeDriver(options);
     }
-
-
-
 
 
     @Test(groups = "QA")
@@ -36,34 +35,11 @@ public class Selenium20 {
         // Waits
 
 
-
-
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @AfterTest
-    public void closeBrowser(){
+    public void closeBrowser() {
         driver.quit();
     }
 }

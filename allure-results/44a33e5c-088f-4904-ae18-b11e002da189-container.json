@@ -1,1 +1,23 @@
-{"uuid":"44a33e5c-088f-4904-ae18-b11e002da189","name":"SeleniumLearning","children":["3e486f97-3cbb-47d4-bb09-db75f31702f5"],"befores":[{"name":"openBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1712655115573,"stop":1712655119720}],"afters":[],"start":1712655115558,"stop":1712655120703}
+{
+  "uuid": "44a33e5c-088f-4904-ae18-b11e002da189",
+  "name": "SeleniumLearning",
+  "children": [
+    "3e486f97-3cbb-47d4-bb09-db75f31702f5"
+  ],
+  "befores": [
+    {
+      "name": "openBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712655115573,
+      "stop": 1712655119720
+    }
+  ],
+  "afters": [],
+  "start": 1712655115558,
+  "stop": 1712655120703
+}

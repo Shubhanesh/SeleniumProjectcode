@@ -1,1 +1,62 @@
-{"uuid":"89fb62eb-d11e-48c9-8fc5-cde14f29bb8f","historyId":"1004b6c3627161ae6f4c8da04bb82ee4","fullName":"org.example.Selenium24032024.Selenium26.testPositive","labels":[{"name":"package","value":"org.example.Selenium24032024.Selenium26"},{"name":"testClass","value":"org.example.Selenium24032024.Selenium26"},{"name":"testMethod","value":"testPositive"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"SeleniumLearning"},{"name":"subSuite","value":"org.example.Selenium24032024.Selenium26"},{"name":"host","value":"DESKTOP-S7KD9CS"},{"name":"thread","value":"6540@DESKTOP-S7KD9CS.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"testPositive","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"Test Case Description","steps":[],"attachments":[],"parameters":[],"start":1712654258982,"stop":1712654263751}
+{
+  "uuid": "89fb62eb-d11e-48c9-8fc5-cde14f29bb8f",
+  "historyId": "1004b6c3627161ae6f4c8da04bb82ee4",
+  "fullName": "org.example.Selenium24032024.Selenium26.testPositive",
+  "labels": [
+    {
+      "name": "package",
+      "value": "org.example.Selenium24032024.Selenium26"
+    },
+    {
+      "name": "testClass",
+      "value": "org.example.Selenium24032024.Selenium26"
+    },
+    {
+      "name": "testMethod",
+      "value": "testPositive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "SeleniumLearning"
+    },
+    {
+      "name": "subSuite",
+      "value": "org.example.Selenium24032024.Selenium26"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-S7KD9CS"
+    },
+    {
+      "name": "thread",
+      "value": "6540@DESKTOP-S7KD9CS.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "testPositive",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Test Case Description",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1712654258982,
+  "stop": 1712654263751
+}

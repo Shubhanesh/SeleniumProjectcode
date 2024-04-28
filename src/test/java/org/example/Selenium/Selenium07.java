@@ -1,4 +1,5 @@
 package org.example.Selenium;
+
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
@@ -18,8 +19,6 @@ public class Selenium07 {
         WebDriver driver = new EdgeDriver(edgeOptions);
 
 
-
-
         driver.get("https://sdet.live");
         System.out.println(driver.getTitle());
         driver.quit();
@@ -27,7 +26,6 @@ public class Selenium07 {
         // NONE -> 0.5 ms
         // EAGER - 1
         // NORMAL  - 5-7 Seconds
-
 
 
     }

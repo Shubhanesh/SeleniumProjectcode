@@ -1,1 +1,62 @@
-{"uuid":"411f0786-3d7f-46cf-8cb0-d1b742c2590e","historyId":"41e59f2c5c8fa84496fb500e29647d33","fullName":"org.example.Selenium17032024.Selenium14.testVWOLogin13","labels":[{"name":"package","value":"org.example.Selenium17032024.Selenium14"},{"name":"testClass","value":"org.example.Selenium17032024.Selenium14"},{"name":"testMethod","value":"testVWOLogin13"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"SeleniumLearning"},{"name":"subSuite","value":"org.example.Selenium17032024.Selenium14"},{"name":"host","value":"DESKTOP-S7KD9CS"},{"name":"thread","value":"2084@DESKTOP-S7KD9CS.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"testVWOLogin13","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"Verify the current URl, title of VWO app","steps":[],"attachments":[],"parameters":[],"start":1711165948467,"stop":1711165962529}
+{
+  "uuid": "411f0786-3d7f-46cf-8cb0-d1b742c2590e",
+  "historyId": "41e59f2c5c8fa84496fb500e29647d33",
+  "fullName": "org.example.Selenium17032024.Selenium14.testVWOLogin13",
+  "labels": [
+    {
+      "name": "package",
+      "value": "org.example.Selenium17032024.Selenium14"
+    },
+    {
+      "name": "testClass",
+      "value": "org.example.Selenium17032024.Selenium14"
+    },
+    {
+      "name": "testMethod",
+      "value": "testVWOLogin13"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "SeleniumLearning"
+    },
+    {
+      "name": "subSuite",
+      "value": "org.example.Selenium17032024.Selenium14"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-S7KD9CS"
+    },
+    {
+      "name": "thread",
+      "value": "2084@DESKTOP-S7KD9CS.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "testVWOLogin13",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Verify the current URl, title of VWO app",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1711165948467,
+  "stop": 1711165962529
+}

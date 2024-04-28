@@ -1,0 +1,23 @@
+{
+  "uuid": "a195e711-8549-4bee-9987-71530d098dfb",
+  "name": "SeleniumLearning",
+  "children": [
+    "cc552562-f68f-4d48-a0fc-23f7b4cb123c"
+  ],
+  "befores": [
+    {
+      "name": "openBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712656845465,
+      "stop": 1712656850179
+    }
+  ],
+  "afters": [],
+  "start": 1712656845444,
+  "stop": 1712656864459
+}

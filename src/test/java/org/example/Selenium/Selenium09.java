@@ -1,4 +1,5 @@
 package org.example.Selenium;
+
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class Selenium09 {
@@ -18,7 +19,6 @@ public class Selenium09 {
         driver.quit();
         // Close all the /sessions/windows and stop the browser
 //        driver.quit(); // Closed All the window and Session = null, Error - Session ID is null
-
 
 
     }

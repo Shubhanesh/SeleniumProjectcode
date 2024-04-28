@@ -1,0 +1,62 @@
+{
+  "uuid": "078ade6e-666c-4218-acc9-b794faf6c2ab",
+  "historyId": "59e9f527e8084efff15dcd45525254bf",
+  "fullName": "Selenium30032024.Selenium34.testPositive",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Selenium30032024.Selenium34"
+    },
+    {
+      "name": "testClass",
+      "value": "Selenium30032024.Selenium34"
+    },
+    {
+      "name": "testMethod",
+      "value": "testPositive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "SeleniumLearning"
+    },
+    {
+      "name": "subSuite",
+      "value": "Selenium30032024.Selenium34"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-S7KD9CS"
+    },
+    {
+      "name": "thread",
+      "value": "15020@DESKTOP-S7KD9CS.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "testPositive",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Test Case Description",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1712658026763,
+  "stop": 1712658046952
+}

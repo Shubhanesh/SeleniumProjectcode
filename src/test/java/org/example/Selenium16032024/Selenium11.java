@@ -11,13 +11,13 @@ import org.testng.annotations.Test;
 public class Selenium11 {
     @Test(groups = "QA")
     @Description("Verify the current URl, title of VWO app")
-    public void testVWOLogin(){
+    public void testVWOLogin() {
         WebDriver driver = new EdgeDriver();
         // 1. Open the URL .app.vwo.com/#/login](https://app.vwo.com/#/login)
         driver.get("https://app.vwo.com");
         System.out.println(driver.getTitle());
         Assert.assertEquals(driver.getTitle(), "Login - VWO");
-        Assert.assertEquals(driver.getCurrentUrl(),"https://app.vwo.com/#/login");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://app.vwo.com/#/login");
 
 //        **Project #1 - TC ( Negaative) - Invalid username, pass - Error message**
 //
@@ -37,7 +37,7 @@ public class Selenium11 {
         // name="username"
         // id="login-username"
         // data-qa="hocewoqisi">
-        WebElement emailInputBox =  driver.findElement(By.id("login-username"));
+        WebElement emailInputBox = driver.findElement(By.id("login-username"));
         emailInputBox.sendKeys("admin@admin.com");
 
         WebElement passwordInputBox = driver.findElement(By.name("password"));
@@ -52,13 +52,12 @@ public class Selenium11 {
         }
 
         WebElement error_msg = driver.findElement(By.className("notification-box-description"));
-        String error_msg_text  = error_msg.getText();
+        String error_msg_text = error_msg.getText();
 
-        Assert.assertEquals(error_msg_text,"Your email, password, IP address or location did not match");
+        Assert.assertEquals(error_msg_text, "Your email, password, IP address or location did not match");
 
 
         driver.quit(); // Stop the session and edge browser which is opened.
-
 
 
     }

@@ -37,6 +37,7 @@ public class Selenium24 {
 
 
     }
+
     @AfterTest
     public void closeBrowser() {
         driver.quit();

@@ -17,12 +17,12 @@ public class Selenium10 {
 
     @Test(groups = "QA")
     @Description("Verfiy the current URl, title of VWO app")
-    public void testVWOLogin(){
+    public void testVWOLogin() {
         WebDriver driver = new EdgeDriver();
         driver.get("https://app.vwo.com");
         System.out.println(driver.getTitle());
         Assert.assertEquals(driver.getTitle(), "Login - VWO");
-        Assert.assertEquals(driver.getCurrentUrl(),"https://app.vwo.com/#/login");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://app.vwo.com/#/login");
     }
 
 }

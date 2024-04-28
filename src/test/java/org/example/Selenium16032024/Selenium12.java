@@ -1,4 +1,5 @@
 package org.example.Selenium16032024;
+
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +25,6 @@ public class Selenium12 {
         WebElement anchor_tag = driver.findElement(By.partialLinkText("Start a free"));
         System.out.println(anchor_tag.getAttribute("href"));
         anchor_tag.click();
-
 
 
         driver.close(); // Close the current window

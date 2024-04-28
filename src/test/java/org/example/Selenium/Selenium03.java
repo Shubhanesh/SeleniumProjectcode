@@ -1,4 +1,5 @@
 package org.example.Selenium;
+
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class Selenium03 {
     @Test
-    public void testMethod(){
+    public void testMethod() {
         //Import Concept of OOPs ->
 
         // interface interfaceRef = new Class();
@@ -73,9 +74,6 @@ public class Selenium03 {
 
         // 3. do you want to run on multiple browsers?
         // RemoteWebDriver driver (with GRID) - Advance (Last 2 Sessions)
-
-
-
 
 
     }

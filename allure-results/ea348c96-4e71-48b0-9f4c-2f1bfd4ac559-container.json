@@ -1,0 +1,35 @@
+{
+  "uuid": "ea348c96-4e71-48b0-9f4c-2f1bfd4ac559",
+  "name": "SeleniumLearning",
+  "children": [
+    "51094ae8-38a3-4af5-9f67-c6e2f23188e4"
+  ],
+  "befores": [
+    {
+      "name": "openBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712657651781,
+      "stop": 1712657656350
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712657670442,
+      "stop": 1712657672098
+    }
+  ],
+  "start": 1712657651760,
+  "stop": 1712657672104
+}

@@ -1,1 +1,35 @@
-{"uuid":"0be43adc-e672-4f77-a044-dd264a6bd1c0","name":"SeleniumLearning","children":["a1ee87f5-c944-4523-87ed-f1a6b3e237d0"],"befores":[{"name":"openbrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711186130719,"stop":1711186134304}],"afters":[{"name":"closedbrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711186137826,"stop":1711186139481}],"start":1711186130697,"stop":1711186139481}
+{
+  "uuid": "0be43adc-e672-4f77-a044-dd264a6bd1c0",
+  "name": "SeleniumLearning",
+  "children": [
+    "a1ee87f5-c944-4523-87ed-f1a6b3e237d0"
+  ],
+  "befores": [
+    {
+      "name": "openbrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1711186130719,
+      "stop": 1711186134304
+    }
+  ],
+  "afters": [
+    {
+      "name": "closedbrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1711186137826,
+      "stop": 1711186139481
+    }
+  ],
+  "start": 1711186130697,
+  "stop": 1711186139481
+}

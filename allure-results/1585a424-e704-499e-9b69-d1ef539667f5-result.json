@@ -1,1 +1,62 @@
-{"uuid":"1585a424-e704-499e-9b69-d1ef539667f5","historyId":"a7bb670c6c3632fe2e65077e1e6c134b","fullName":"org.example.Selenium23032024.Selenium19.VWOLogin_positive","labels":[{"name":"package","value":"org.example.Selenium23032024.Selenium19"},{"name":"testClass","value":"org.example.Selenium23032024.Selenium19"},{"name":"testMethod","value":"VWOLogin_positive"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"SeleniumLearning"},{"name":"subSuite","value":"org.example.Selenium23032024.Selenium19"},{"name":"host","value":"DESKTOP-S7KD9CS"},{"name":"thread","value":"15400@DESKTOP-S7KD9CS.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"VWOLogin_positive","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"Test case discription","steps":[],"attachments":[],"parameters":[],"start":1711188155244,"stop":1711188165533}
+{
+  "uuid": "1585a424-e704-499e-9b69-d1ef539667f5",
+  "historyId": "a7bb670c6c3632fe2e65077e1e6c134b",
+  "fullName": "org.example.Selenium23032024.Selenium19.VWOLogin_positive",
+  "labels": [
+    {
+      "name": "package",
+      "value": "org.example.Selenium23032024.Selenium19"
+    },
+    {
+      "name": "testClass",
+      "value": "org.example.Selenium23032024.Selenium19"
+    },
+    {
+      "name": "testMethod",
+      "value": "VWOLogin_positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "SeleniumLearning"
+    },
+    {
+      "name": "subSuite",
+      "value": "org.example.Selenium23032024.Selenium19"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-S7KD9CS"
+    },
+    {
+      "name": "thread",
+      "value": "15400@DESKTOP-S7KD9CS.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "VWOLogin_positive",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Test case discription",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1711188155244,
+  "stop": 1711188165533
+}
